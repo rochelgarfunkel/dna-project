@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DNA.dir/manager.cpp.o  -o DNA 

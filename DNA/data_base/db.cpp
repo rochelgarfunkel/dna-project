@@ -1,22 +1,21 @@
 #include "db.h"
 
-DB::DB(IOHandler* m_handler)
+
+DB::DB(IOHandler* handler): m_handler(handler)
+{}
+
+DNAObject DB::getById(size_t id) const
+{
+    return 
+}
+
+
+DNAObject DB::getByName(const std::string& name) const
 {
 
 }
 
-DNAObject& DNA::getById(const size_t id) const
-{
-
-}
-
-
-DNAObject& DNA::getByName(const std::string& name) const
-{
-
-}
-
-void DNA::addDna(DNAObject& dna)
+void DB::addDna(DNAObject& dna)
 {
 
 }

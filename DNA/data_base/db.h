@@ -1,9 +1,10 @@
 #ifndef __DB_H__
 #define __DB_H__
 
-#include <stddef>
+#include <cstddef>
 #include <list>
 #include <map>
+#include "./../helper_structures/shared_ptr.h"
 #include "dna/dna_object.h"
 
 class IOHandler;
@@ -11,16 +12,16 @@ class IOHandler;
 class DB
 {
 public:
-    DB(IOHandler* m_handler);
+    explicit DB(IOHandler* m_handler);
     IOHandler* m_handler;
-    DNAObject& getById(const size_t id) const;
-    DNAObject& getByName(const std::string& name) const;
+    DNAObject getById(size_t id) const;
+    DNAObject getByName(const std::string& name) const;
     void addDna(DNAObject& dna);
 
 private:
     std::list<DNAObject> m_dnas;
-    std::map<size_t, DNAObject*> m_id_map;
-    std::map<std::string, DNAObject*> m_name_map;
+    std::map<size_t, SharedPtr<DNAObject>> m_id_map;
+    std::map<std::string, SharedPtr<DNAObject>> m_name_map;
 };
 
 #endif

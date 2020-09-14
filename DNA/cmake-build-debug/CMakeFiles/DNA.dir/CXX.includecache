@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/manager.cpp
+iostream
+-
+manager.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/manager.h
+ui/iui.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/ui/iui.h
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/manager.h
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/ui/iui.h
+vector
+-
+string
+-
+

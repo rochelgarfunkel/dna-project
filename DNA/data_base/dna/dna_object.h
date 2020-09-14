@@ -6,9 +6,10 @@
 class DNAObject
 {
 public:
+    DNAObject(size_t id, std::string name, std::string sequence);
     size_t getId() const;
     std::string getName() const;
-    DnaSequence& getSequence() const;
+    DnaSequence getSequence() const;
 
 private:
     size_t m_id;

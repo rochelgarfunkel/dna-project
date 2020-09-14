@@ -1,22 +1,20 @@
 #ifndef __MANAGER_H__
 #define __MANAGER_H__
 
-class ICLI;
+class IUI;
 class IParser;
-class DB;
+class IOHandler;
 
 class Manager
 {
 public:
-	Manager(ICLI &cli, IParser &parser);
+	Manager(IUI* ui, IParser* parser, IOHandler* io_handler);
 	void run();
-	void quit();
+	static void quit();
 
 private:
-    void getAndExecuteCmd(std::string &input);
-	ICLI* m_cli;
-	IParser* m_parser
-	DB* m_db
+	IUI* m_ui;
+	IParser* m_parser;
 };
 
 #endif
