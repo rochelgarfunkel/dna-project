@@ -6,6 +6,50 @@
 
 #IncludeRegexTransform: 
 
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
+string
+-
+map
+-
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.h
+cstddef
+-
+list
+-
+map
+-
+./../helper_structures/shared_ptr.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
+dna/dna_object.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
+dna_sequence.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
+string
+-
+iostream
+-
+string.h
+-
+vector
+-
+map
+-
+sequence_error.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
+exception
+-
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
+cstddef
+-
+
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/manager.cpp
 iostream
 -
@@ -13,6 +57,10 @@ manager.h
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/manager.h
 ui/iui.h
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/ui/iui.h
+command_controller/command_collection.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
+data_base/db.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.h
 
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/manager.h
 

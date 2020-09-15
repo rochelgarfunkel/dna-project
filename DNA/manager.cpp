@@ -1,14 +1,16 @@
 #include <iostream>
 
 #include "manager.h"
-#include "ui/iui.h"
+#include "ui/cli.h"
 #include "command_controller/command_collection.h"
 #include "data_base/db.h"
+#include "parser/cli_parser.h"
 
-Manager::Manager(IUI* ui, IParser* parser, IOHandler* io_handler): m_ui(ui), m_parser(parser)
+Manager::Manager(CLI* ui, IOHandler* io_handler): m_ui(ui), m_parser(new CLIParser), m_io_handler(io_handler), m_db(new DB)
 {
     CommandCollection::initMap(new DB(io_handler));
 }
+
 
 void Manager::run()
 {
