@@ -4,13 +4,11 @@
 #include <vector>
 #include <string>
 
-class IParser;
-
 class IUI
 {
 public:
     virtual ~IUI() {}
-    virtual void run(IParser* parser) const = 0;
+    virtual void run() const = 0;
     virtual void writeOutput(const std::string& output) const = 0;
 
 private:

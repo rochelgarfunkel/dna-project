@@ -3,16 +3,18 @@
 
 #include <string>
 #include <iostream>
-#include <string.h>
+#include <cstring>
 #include <vector>
 #include <map>
 
 #include "sequence_error.h"
+#include "idna.h"
 
 
 static const char s_dna_chars[8] = {'A', 'C', 'T', 'G', 'a', 'c', 't', 'g'};
 
-class DnaSequence{
+class DnaSequence: public IDna
+{
 
 private:
     class Nucliotide
@@ -50,6 +52,8 @@ public:
     bool operator!= (const DnaSequence &dna_seq) const;
     Nucliotide& operator[] (size_t index);
     const char operator[] (size_t index) const;
+    IDna* get();
+    std::string getSeq() const;
     size_t getLength() const;
 
     DnaSequence getSlicedSeq (size_t strt_ind, size_t end_ind) const;
@@ -83,6 +87,21 @@ inline const char DnaSequence::operator[] (size_t index) const
         throw std::out_of_range("The index is out of range");
 
     return m_sequence[index];
+}
+
+inline IDna* DnaSequence::get()
+{
+    return this;
+}
+
+inline std::string DnaSequence::getSeq() const
+{
+    std::string seq_as_str = "";
+
+    for (size_t i = 0; i < getLength(); ++i)
+        seq_as_str += m_sequence[i];
+
+    return seq_as_str;
 }
 
 inline size_t DnaSequence::getLength () const

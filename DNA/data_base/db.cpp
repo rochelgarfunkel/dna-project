@@ -1,6 +1,5 @@
 #include "db.h"
 
-
 DB::DB(): m_dna_id(0)
 {}
 
@@ -20,10 +19,16 @@ bool DB::nameExists(const std::string& name) const
     return m_name_map.count(name) > 0;
 }
 
-void DB::addDna(DNAObject& dna)
+void DB::addDna(DNAObject* dna)
 {
-    m_dnas.push_back(dna);
-    m_id_map.insert(std::pair<size_t, shDnaSequence)
+    m_dnas.push_back(*dna);
+    m_id_map[dna -> getId()] = dna;
+    m_name_map[dna -> getName()] = dna;
+}
+
+size_t DB::getNewId()
+{
+    return m_dna_id++;
 }
 
 

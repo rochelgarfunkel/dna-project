@@ -12,10 +12,14 @@ public:
     ~Load() {}
 
 	void help();
-	std::string execute(std::vector<std::string>& params);
+    std::string parse(std::vector<std::string>);
+	std::string execute();
+	void clear();
 	DB* m_db;
 
 private:
+    std::string m_file_name;
+    std::string m_seq_name;
     static std::string m_doc;
 };
 

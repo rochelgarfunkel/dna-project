@@ -5,6 +5,7 @@
 
 class CLIParser: public IParser
 {
+public:
     ~CLIParser() {}
     std::vector<std::string> parse(std::string input) const;
 };

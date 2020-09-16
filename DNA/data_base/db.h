@@ -15,12 +15,13 @@ public:
     DNAObject getById(size_t id) const;
     DNAObject getByName(const std::string& name) const;
     bool nameExists(const std::string& name) const;
-    void addDna(DNAObject& dna);
+    void addDna(DNAObject* dna);
+    size_t getNewId();
 
 private:
     std::list<DNAObject> m_dnas;
-    std::map<size_t, SharedPtr<DNAObject>> m_id_map;
-    std::map<std::string, SharedPtr<DNAObject>> m_name_map;
+    std::map<size_t, DNAObject*> m_id_map;
+    std::map<std::string, DNAObject*> m_name_map;
     size_t m_dna_id;
 };
 

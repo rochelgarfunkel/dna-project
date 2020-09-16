@@ -82,10 +82,70 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/load.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/load.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/helper_function.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/main.cpp">
+			<Option target="DNA"/>
+		</Unit>
 		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/manager.cpp">
 			<Option target="DNA"/>
 		</Unit>
 		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/manager.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/parser/cli_parser.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/parser/cli_parser.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/ui/cli.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/ui/cli.h">
 			<Option target="DNA"/>
 		</Unit>
 		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/CMakeLists.txt">

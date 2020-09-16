@@ -1,15 +1,17 @@
 #include <iostream>
 #include "cli.h"
-#include "../parser/iparser.h"
+#include <cstring>
+#include "../parser/cli_parser.h"
 #include "../command_controller/commands/Icommand.h"
 #include "../command_controller/command_collection.h"
 
-void CLI::run(IParser* parser) const
+
+void CLI::run() const
 {
     while (true)
     {
       std::string command = readCommand();
-      std::vector<std::string> parsed_command = parser -> parse(command);
+      std::vector<std::string> parsed_command = parser.parse(command);
       if (parsed_command[0] == "quit")
           return;
 
@@ -19,9 +21,12 @@ void CLI::run(IParser* parser) const
 
 std::string CLI::readCommand() const
 {
-    std::cout << ">>> ";
-    std::string input;
-    std::cin >> input;
+    std::string input = "";
+
+    while (input == "") {
+        std::cout << "\n>>> ";
+        std::getline(std::cin, input);
+    }
     return input;
 }
 
@@ -29,15 +34,19 @@ std::string CLI::readCommand() const
 void CLI::handleCommand(std::vector<std::string>& command) const
 {
     std::string command_name = command.front();
-    if (command_name == "help")
-        std::string output = CommandCollection::help();
+    std::string output(command_name + ": command not found");
 
-    else
+    command.erase(command.begin());
+    ICommand* command_obj = CommandCollection::getCommand(command_name);
+    if (command_obj)
     {
-        command.erase(command.begin());
-        std::string output = CommandCollection::getCommand(command_name)->execute(command);
+        output = command_obj->parse(command);
+
+        if (output == "OK")
+            output = command_obj -> execute();
     }
 
+    command_obj -> clear();
     writeOutput(output);
 }
 

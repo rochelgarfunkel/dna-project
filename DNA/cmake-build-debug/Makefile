@@ -143,6 +143,249 @@ DNA/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/build
 .PHONY : DNA/fast
 
+command_controller/command_collection.o: command_controller/command_collection.cpp.o
+
+.PHONY : command_controller/command_collection.o
+
+# target to build an object file
+command_controller/command_collection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o
+.PHONY : command_controller/command_collection.cpp.o
+
+command_controller/command_collection.i: command_controller/command_collection.cpp.i
+
+.PHONY : command_controller/command_collection.i
+
+# target to preprocess a source file
+command_controller/command_collection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/command_collection.cpp.i
+.PHONY : command_controller/command_collection.cpp.i
+
+command_controller/command_collection.s: command_controller/command_collection.cpp.s
+
+.PHONY : command_controller/command_collection.s
+
+# target to generate assembly for a file
+command_controller/command_collection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/command_collection.cpp.s
+.PHONY : command_controller/command_collection.cpp.s
+
+command_controller/commands/load.o: command_controller/commands/load.cpp.o
+
+.PHONY : command_controller/commands/load.o
+
+# target to build an object file
+command_controller/commands/load.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o
+.PHONY : command_controller/commands/load.cpp.o
+
+command_controller/commands/load.i: command_controller/commands/load.cpp.i
+
+.PHONY : command_controller/commands/load.i
+
+# target to preprocess a source file
+command_controller/commands/load.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/load.cpp.i
+.PHONY : command_controller/commands/load.cpp.i
+
+command_controller/commands/load.s: command_controller/commands/load.cpp.s
+
+.PHONY : command_controller/commands/load.s
+
+# target to generate assembly for a file
+command_controller/commands/load.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/load.cpp.s
+.PHONY : command_controller/commands/load.cpp.s
+
+command_controller/commands/new.o: command_controller/commands/new.cpp.o
+
+.PHONY : command_controller/commands/new.o
+
+# target to build an object file
+command_controller/commands/new.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o
+.PHONY : command_controller/commands/new.cpp.o
+
+command_controller/commands/new.i: command_controller/commands/new.cpp.i
+
+.PHONY : command_controller/commands/new.i
+
+# target to preprocess a source file
+command_controller/commands/new.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/new.cpp.i
+.PHONY : command_controller/commands/new.cpp.i
+
+command_controller/commands/new.s: command_controller/commands/new.cpp.s
+
+.PHONY : command_controller/commands/new.s
+
+# target to generate assembly for a file
+command_controller/commands/new.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/new.cpp.s
+.PHONY : command_controller/commands/new.cpp.s
+
+data_base/db.o: data_base/db.cpp.o
+
+.PHONY : data_base/db.o
+
+# target to build an object file
+data_base/db.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/db.cpp.o
+.PHONY : data_base/db.cpp.o
+
+data_base/db.i: data_base/db.cpp.i
+
+.PHONY : data_base/db.i
+
+# target to preprocess a source file
+data_base/db.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/db.cpp.i
+.PHONY : data_base/db.cpp.i
+
+data_base/db.s: data_base/db.cpp.s
+
+.PHONY : data_base/db.s
+
+# target to generate assembly for a file
+data_base/db.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/db.cpp.s
+.PHONY : data_base/db.cpp.s
+
+data_base/dna/dna_object.o: data_base/dna/dna_object.cpp.o
+
+.PHONY : data_base/dna/dna_object.o
+
+# target to build an object file
+data_base/dna/dna_object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o
+.PHONY : data_base/dna/dna_object.cpp.o
+
+data_base/dna/dna_object.i: data_base/dna/dna_object.cpp.i
+
+.PHONY : data_base/dna/dna_object.i
+
+# target to preprocess a source file
+data_base/dna/dna_object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.i
+.PHONY : data_base/dna/dna_object.cpp.i
+
+data_base/dna/dna_object.s: data_base/dna/dna_object.cpp.s
+
+.PHONY : data_base/dna/dna_object.s
+
+# target to generate assembly for a file
+data_base/dna/dna_object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.s
+.PHONY : data_base/dna/dna_object.cpp.s
+
+data_base/dna/dna_sequence.o: data_base/dna/dna_sequence.cpp.o
+
+.PHONY : data_base/dna/dna_sequence.o
+
+# target to build an object file
+data_base/dna/dna_sequence.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o
+.PHONY : data_base/dna/dna_sequence.cpp.o
+
+data_base/dna/dna_sequence.i: data_base/dna/dna_sequence.cpp.i
+
+.PHONY : data_base/dna/dna_sequence.i
+
+# target to preprocess a source file
+data_base/dna/dna_sequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.i
+.PHONY : data_base/dna/dna_sequence.cpp.i
+
+data_base/dna/dna_sequence.s: data_base/dna/dna_sequence.cpp.s
+
+.PHONY : data_base/dna/dna_sequence.s
+
+# target to generate assembly for a file
+data_base/dna/dna_sequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.s
+.PHONY : data_base/dna/dna_sequence.cpp.s
+
+helper_structures/helper_function.o: helper_structures/helper_function.cpp.o
+
+.PHONY : helper_structures/helper_function.o
+
+# target to build an object file
+helper_structures/helper_function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/helper_structures/helper_function.cpp.o
+.PHONY : helper_structures/helper_function.cpp.o
+
+helper_structures/helper_function.i: helper_structures/helper_function.cpp.i
+
+.PHONY : helper_structures/helper_function.i
+
+# target to preprocess a source file
+helper_structures/helper_function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/helper_structures/helper_function.cpp.i
+.PHONY : helper_structures/helper_function.cpp.i
+
+helper_structures/helper_function.s: helper_structures/helper_function.cpp.s
+
+.PHONY : helper_structures/helper_function.s
+
+# target to generate assembly for a file
+helper_structures/helper_function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/helper_structures/helper_function.cpp.s
+.PHONY : helper_structures/helper_function.cpp.s
+
+helper_structures/shared_ptr.o: helper_structures/shared_ptr.cpp.o
+
+.PHONY : helper_structures/shared_ptr.o
+
+# target to build an object file
+helper_structures/shared_ptr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.o
+.PHONY : helper_structures/shared_ptr.cpp.o
+
+helper_structures/shared_ptr.i: helper_structures/shared_ptr.cpp.i
+
+.PHONY : helper_structures/shared_ptr.i
+
+# target to preprocess a source file
+helper_structures/shared_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.i
+.PHONY : helper_structures/shared_ptr.cpp.i
+
+helper_structures/shared_ptr.s: helper_structures/shared_ptr.cpp.s
+
+.PHONY : helper_structures/shared_ptr.s
+
+# target to generate assembly for a file
+helper_structures/shared_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.s
+.PHONY : helper_structures/shared_ptr.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 manager.o: manager.cpp.o
 
 .PHONY : manager.o
@@ -170,6 +413,60 @@ manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/manager.cpp.s
 .PHONY : manager.cpp.s
 
+parser/cli_parser.o: parser/cli_parser.cpp.o
+
+.PHONY : parser/cli_parser.o
+
+# target to build an object file
+parser/cli_parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/parser/cli_parser.cpp.o
+.PHONY : parser/cli_parser.cpp.o
+
+parser/cli_parser.i: parser/cli_parser.cpp.i
+
+.PHONY : parser/cli_parser.i
+
+# target to preprocess a source file
+parser/cli_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/parser/cli_parser.cpp.i
+.PHONY : parser/cli_parser.cpp.i
+
+parser/cli_parser.s: parser/cli_parser.cpp.s
+
+.PHONY : parser/cli_parser.s
+
+# target to generate assembly for a file
+parser/cli_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/parser/cli_parser.cpp.s
+.PHONY : parser/cli_parser.cpp.s
+
+ui/cli.o: ui/cli.cpp.o
+
+.PHONY : ui/cli.o
+
+# target to build an object file
+ui/cli.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/ui/cli.cpp.o
+.PHONY : ui/cli.cpp.o
+
+ui/cli.i: ui/cli.cpp.i
+
+.PHONY : ui/cli.i
+
+# target to preprocess a source file
+ui/cli.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/ui/cli.cpp.i
+.PHONY : ui/cli.cpp.i
+
+ui/cli.s: ui/cli.cpp.s
+
+.PHONY : ui/cli.s
+
+# target to generate assembly for a file
+ui/cli.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/ui/cli.cpp.s
+.PHONY : ui/cli.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +476,42 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DNA"
+	@echo "... command_controller/command_collection.o"
+	@echo "... command_controller/command_collection.i"
+	@echo "... command_controller/command_collection.s"
+	@echo "... command_controller/commands/load.o"
+	@echo "... command_controller/commands/load.i"
+	@echo "... command_controller/commands/load.s"
+	@echo "... command_controller/commands/new.o"
+	@echo "... command_controller/commands/new.i"
+	@echo "... command_controller/commands/new.s"
+	@echo "... data_base/db.o"
+	@echo "... data_base/db.i"
+	@echo "... data_base/db.s"
+	@echo "... data_base/dna/dna_object.o"
+	@echo "... data_base/dna/dna_object.i"
+	@echo "... data_base/dna/dna_object.s"
+	@echo "... data_base/dna/dna_sequence.o"
+	@echo "... data_base/dna/dna_sequence.i"
+	@echo "... data_base/dna/dna_sequence.s"
+	@echo "... helper_structures/helper_function.o"
+	@echo "... helper_structures/helper_function.i"
+	@echo "... helper_structures/helper_function.s"
+	@echo "... helper_structures/shared_ptr.o"
+	@echo "... helper_structures/shared_ptr.i"
+	@echo "... helper_structures/shared_ptr.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... manager.o"
 	@echo "... manager.i"
 	@echo "... manager.s"
+	@echo "... parser/cli_parser.o"
+	@echo "... parser/cli_parser.i"
+	@echo "... parser/cli_parser.s"
+	@echo "... ui/cli.o"
+	@echo "... ui/cli.i"
+	@echo "... ui/cli.s"
 .PHONY : help
 
 

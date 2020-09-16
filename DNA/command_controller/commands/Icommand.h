@@ -11,7 +11,9 @@ class ICommand
 public:
     virtual ~ICommand() {}
 	virtual void help() = 0;
-	virtual std::string execute(std::vector<std::string>& params) = 0;
+    virtual std::string parse(std::vector<std::string> params) = 0;
+	virtual std::string execute() = 0;
+	virtual void clear() = 0;
 };
 
 #endif
