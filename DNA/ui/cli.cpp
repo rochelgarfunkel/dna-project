@@ -1,12 +1,10 @@
 #include <iostream>
 #include "cli.h"
-#include <cstring>
-#include "../parser/cli_parser.h"
 #include "../command_controller/commands/Icommand.h"
 #include "../command_controller/command_collection.h"
 
 
-void CLI::run() const
+void CLI::run(DB* db) const
 {
     while (true)
     {
@@ -15,15 +13,15 @@ void CLI::run() const
       if (parsed_command[0] == "quit")
           return;
 
-      else handleCommand(parsed_command);
+      else handleCommand(parsed_command, db);
     }
 }
 
 std::string CLI::readCommand() const
 {
-    std::string input = "";
+    std::string input;
 
-    while (input == "") {
+    while (input.empty()) {
         std::cout << "\n>>> ";
         std::getline(std::cin, input);
     }
@@ -31,7 +29,7 @@ std::string CLI::readCommand() const
 }
 
 
-void CLI::handleCommand(std::vector<std::string>& command) const
+void CLI::handleCommand(std::vector<std::string>& command, DB* db) const
 {
     std::string command_name = command.front();
     std::string output(command_name + ": command not found");
@@ -43,7 +41,7 @@ void CLI::handleCommand(std::vector<std::string>& command) const
         output = command_obj->parse(command);
 
         if (output == "OK")
-            output = command_obj -> execute();
+            output = command_obj -> execute(db);
     }
 
     command_obj -> clear();

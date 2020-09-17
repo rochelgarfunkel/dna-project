@@ -1,11 +1,13 @@
 #include <iostream>
-#include <fstream>
 #include "load.h"
 #include "../command_collection.h"
+#include "../../helper_structures/helper_functions.h"
+
+static bool dummy = CommandCollection::getInstance() -> addToMap("load", new Load);
 
 std::string Load::m_doc = "Loads the sequence from the file, assigns it with a number (ID) and a default name, if one was not provided (based on the file name, possibly postfixed with a number if the name already exists), and prints it.";
 
-Load::Load(DB* db): m_db(db), m_file_name(""), m_seq_name("")
+Load::Load(): m_file_name(""), m_seq_name("")
 {}
 
 void Load::help()
@@ -35,34 +37,22 @@ std::string Load::parse(std::vector<std::string> params)
     }
 }
 
-std::string Load::execute()
+std::string Load::execute(DB* db)
 {
-    std::string path = "saved_sequences/" + m_file_name;
-    std::string line;
-    std::ifstream myfile;
-    std::string sequence;
-    myfile.open(path.c_str());
+    std::string path = "saved_sequences/" + m_file_name + ".rawdna";
+    std::string sequence = readFromFile(path);
 
-    if (myfile.is_open())
-    {
-        while ( getline (myfile,line) )
-        {
-            sequence +=  line;
-        }
-
-        myfile.close();
-    }
-
-    else return "Unable to read " + m_file_name;
+    if (sequence.empty())
+        return "Unable to read from " + m_file_name + " :( . Make sure file exists and is not empty.\n";
 
     std::vector<std::string> params;
     params.push_back(sequence);
 
-    if (m_seq_name != "")
+    if (not m_seq_name.empty())
         params.push_back(m_seq_name);
 
     CommandCollection::getCommand("new") -> parse(params);
-    std::string res = CommandCollection::getCommand("new") -> execute();
+    std::string res = CommandCollection::getCommand("new") -> execute(db);
     CommandCollection::getCommand("new") -> clear();
 
     return res;

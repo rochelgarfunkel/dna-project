@@ -100,6 +100,12 @@
 		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.h">
 			<Option target="DNA"/>
 		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/save.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/save.h">
+			<Option target="DNA"/>
+		</Unit>
 		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.cpp">
 			<Option target="DNA"/>
 		</Unit>

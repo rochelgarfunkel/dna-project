@@ -54,10 +54,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/124/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/125/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/124/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/125/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -155,9 +155,22 @@ CMakeFiles/DNA.dir/command_controller/commands/new.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DNA.dir/command_controller/commands/new.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.cpp -o CMakeFiles/DNA.dir/command_controller/commands/new.cpp.s
 
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: CMakeFiles/DNA.dir/flags.make
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../command_controller/commands/save.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o -c /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/save.cpp
+
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DNA.dir/command_controller/commands/save.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/save.cpp > CMakeFiles/DNA.dir/command_controller/commands/save.cpp.i
+
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DNA.dir/command_controller/commands/save.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/save.cpp -o CMakeFiles/DNA.dir/command_controller/commands/save.cpp.s
+
 CMakeFiles/DNA.dir/data_base/db.cpp.o: CMakeFiles/DNA.dir/flags.make
 CMakeFiles/DNA.dir/data_base/db.cpp.o: ../data_base/db.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DNA.dir/data_base/db.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DNA.dir/data_base/db.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/data_base/db.cpp.o -c /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.cpp
 
 CMakeFiles/DNA.dir/data_base/db.cpp.i: cmake_force
@@ -170,7 +183,7 @@ CMakeFiles/DNA.dir/data_base/db.cpp.s: cmake_force
 
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: CMakeFiles/DNA.dir/flags.make
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../data_base/dna/dna_object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o -c /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.cpp
 
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.i: cmake_force
@@ -183,7 +196,7 @@ CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.s: cmake_force
 
 CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o: CMakeFiles/DNA.dir/flags.make
 CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o: ../data_base/dna/dna_sequence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o -c /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.cpp
 
 CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.i: cmake_force
@@ -196,7 +209,7 @@ CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.s: cmake_force
 
 CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.o: CMakeFiles/DNA.dir/flags.make
 CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.o: ../helper_structures/shared_ptr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.o -c /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.cpp
 
 CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.i: cmake_force
@@ -209,7 +222,7 @@ CMakeFiles/DNA.dir/helper_structures/shared_ptr.cpp.s: cmake_force
 
 CMakeFiles/DNA.dir/parser/cli_parser.cpp.o: CMakeFiles/DNA.dir/flags.make
 CMakeFiles/DNA.dir/parser/cli_parser.cpp.o: ../parser/cli_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DNA.dir/parser/cli_parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DNA.dir/parser/cli_parser.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/parser/cli_parser.cpp.o -c /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/parser/cli_parser.cpp
 
 CMakeFiles/DNA.dir/parser/cli_parser.cpp.i: cmake_force
@@ -222,7 +235,7 @@ CMakeFiles/DNA.dir/parser/cli_parser.cpp.s: cmake_force
 
 CMakeFiles/DNA.dir/ui/cli.cpp.o: CMakeFiles/DNA.dir/flags.make
 CMakeFiles/DNA.dir/ui/cli.cpp.o: ../ui/cli.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DNA.dir/ui/cli.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DNA.dir/ui/cli.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNA.dir/ui/cli.cpp.o -c /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/ui/cli.cpp
 
 CMakeFiles/DNA.dir/ui/cli.cpp.i: cmake_force
@@ -241,6 +254,7 @@ DNA_OBJECTS = \
 "CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o" \
 "CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o" \
 "CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o" \
+"CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o" \
 "CMakeFiles/DNA.dir/data_base/db.cpp.o" \
 "CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o" \
 "CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o" \
@@ -257,6 +271,7 @@ DNA: CMakeFiles/DNA.dir/main.cpp.o
 DNA: CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o
 DNA: CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o
 DNA: CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o
+DNA: CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o
 DNA: CMakeFiles/DNA.dir/data_base/db.cpp.o
 DNA: CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o
 DNA: CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o
@@ -265,7 +280,7 @@ DNA: CMakeFiles/DNA.dir/parser/cli_parser.cpp.o
 DNA: CMakeFiles/DNA.dir/ui/cli.cpp.o
 DNA: CMakeFiles/DNA.dir/build.make
 DNA: CMakeFiles/DNA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable DNA"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable DNA"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DNA.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

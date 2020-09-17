@@ -10,6 +10,7 @@ public:
     DNAObject(size_t id, std::string& name, IDna* sequence);
     size_t getId() const;
     std::string getName() const;
+    std::string getSequence() const;
     std::string prepareOutput() const;
 
 private:

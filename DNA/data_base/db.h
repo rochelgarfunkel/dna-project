@@ -12,8 +12,8 @@ class DB
 {
 public:
     DB();
-    DNAObject getById(size_t id) const;
-    DNAObject getByName(const std::string& name) const;
+    DNAObject& getById(size_t id);
+    DNAObject& getByName(const std::string& name);
     bool nameExists(const std::string& name) const;
     void addDna(DNAObject* dna);
     size_t getNewId();

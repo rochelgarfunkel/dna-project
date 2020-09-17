@@ -2,6 +2,9 @@
 #include "../../helper_structures/helper_functions.h"
 #include "new.h"
 #include "../../data_base/db.h"
+#include "../command_collection.h"
+
+static bool dummy = CommandCollection::getInstance() -> addToMap("new", new New);
 
 std::string New::m_doc = "Creates a new sequence, as described by the followed sequence.If the @<sequence_name> is used, then this will be the name of the new sequence.\n"
                          "\n"
@@ -9,7 +12,7 @@ std::string New::m_doc = "Creates a new sequence, as described by the followed s
                          "\n"
                          "The new sequence, its name and its number (internal ID, starting with 1) are printed.";
 
-New::New(DB* db): m_db(db), m_sequence(""), m_seq_name("")
+New::New(): m_sequence(""), m_seq_name("")
 {}
 
 void New::help()
@@ -39,7 +42,7 @@ std::string New::parse(std::vector<std::string> params)
     }
 }
 
-std::string New::execute()
+std::string New::execute(DB* db)
 {
     IDna* dna = NULL;
 
@@ -52,13 +55,13 @@ std::string New::execute()
         return se.what();
     }
 
-    size_t seq_id = m_db -> getNewId();
+    size_t seq_id = db -> getNewId();
 
-    if (m_seq_name == "" or m_db -> nameExists(m_seq_name))
-        getDefaultName(seq_id);
+    if (m_seq_name.empty() or db -> nameExists(m_seq_name))
+        getDefaultName(seq_id, db);
 
-    m_db -> addDna(new DNAObject(seq_id, m_seq_name, dna));
-    return m_db -> getById(seq_id).prepareOutput();
+    db -> addDna(new DNAObject(seq_id, m_seq_name, dna));
+    return db -> getById(seq_id).prepareOutput();
 }
 
 void New::clear()
@@ -67,13 +70,13 @@ void New::clear()
     m_seq_name = "";
 }
 
-void New::getDefaultName(size_t id)
+void New::getDefaultName(size_t id, DB* db)
 {
-    if (m_seq_name == "")
+    if (m_seq_name.empty())
         m_seq_name = "sequence";
 
     m_seq_name += "_" + size_tToString(id);
 
-    while (m_db -> nameExists(m_seq_name))
+    while (db -> nameExists(m_seq_name))
         m_seq_name += "_" + size_tToString(id);
 }

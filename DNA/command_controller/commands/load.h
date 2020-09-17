@@ -8,14 +8,13 @@
 class Load : public ICommand
 {
 public:
-	Load(DB* db);
+	Load();
     ~Load() {}
 
 	void help();
     std::string parse(std::vector<std::string>);
-	std::string execute();
+	std::string execute(DB* db);
 	void clear();
-	DB* m_db;
 
 private:
     std::string m_file_name;

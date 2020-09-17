@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/124/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/125/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/124/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/125/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/124/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/125/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -90,7 +90,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/124/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/125/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -223,6 +223,33 @@ command_controller/commands/new.s: command_controller/commands/new.cpp.s
 command_controller/commands/new.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/new.cpp.s
 .PHONY : command_controller/commands/new.cpp.s
+
+command_controller/commands/save.o: command_controller/commands/save.cpp.o
+
+.PHONY : command_controller/commands/save.o
+
+# target to build an object file
+command_controller/commands/save.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o
+.PHONY : command_controller/commands/save.cpp.o
+
+command_controller/commands/save.i: command_controller/commands/save.cpp.i
+
+.PHONY : command_controller/commands/save.i
+
+# target to preprocess a source file
+command_controller/commands/save.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/save.cpp.i
+.PHONY : command_controller/commands/save.cpp.i
+
+command_controller/commands/save.s: command_controller/commands/save.cpp.s
+
+.PHONY : command_controller/commands/save.s
+
+# target to generate assembly for a file
+command_controller/commands/save.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/save.cpp.s
+.PHONY : command_controller/commands/save.cpp.s
 
 data_base/db.o: data_base/db.cpp.o
 
@@ -485,6 +512,9 @@ help:
 	@echo "... command_controller/commands/new.o"
 	@echo "... command_controller/commands/new.i"
 	@echo "... command_controller/commands/new.s"
+	@echo "... command_controller/commands/save.o"
+	@echo "... command_controller/commands/save.i"
+	@echo "... command_controller/commands/save.s"
 	@echo "... data_base/db.o"
 	@echo "... data_base/db.i"
 	@echo "... data_base/db.s"

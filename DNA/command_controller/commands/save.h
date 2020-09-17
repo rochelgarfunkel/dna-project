@@ -1,15 +1,15 @@
-#ifndef __NEW_H__
-#define __NEW_H__
+#ifndef __SAVE_H__
+#define __SAVE_H__
 
 #include <string>
 #include <vector>
 #include "Icommand.h"
 
-class New : public ICommand
+class Save : public ICommand
 {
 public:
-    New();
-    ~New() {}
+    Save();
+    ~Save() {}
 
     void help();
     std::string parse(std::vector<std::string>);
@@ -17,10 +17,10 @@ public:
     void clear();
 
 private:
-    std::string m_sequence;
-    std::string m_seq_name;
+    size_t m_seq_id;
+    std::string m_file_name;
     static std::string m_doc;
-    void getDefaultName(size_t id, DB* db);
+    typedef enum {SEQID, FILENAME} m_params;
 };
 
 #endif

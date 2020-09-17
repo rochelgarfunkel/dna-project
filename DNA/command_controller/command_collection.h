@@ -3,6 +3,7 @@
 
 #include <string>
 #include <map>
+#include "../helper_structures/shared_ptr.h"
 
 class ICommand;
 class DB;
@@ -10,12 +11,16 @@ class DB;
 class CommandCollection
 {
 public:
-    static void initMap(DB* db);
+    static CommandCollection* getInstance();
+    static bool addToMap(const std::string& cmd_name, ICommand* command);
+
     static std::string help();
     static ICommand* getCommand(const std::string& command_as_str);
+    static std::map<std::string, ICommand*> m_commands_map;
 
 private:
-    static std::map<std::string, ICommand*> m_commands_map;
+    CommandCollection() {};
+    static CommandCollection* m_instance;
 };
 
 #endif

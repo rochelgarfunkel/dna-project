@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o"
   "CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o"
   "CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o"
+  "CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o"
   "CMakeFiles/DNA.dir/data_base/db.cpp.o"
   "CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o"
   "CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o"

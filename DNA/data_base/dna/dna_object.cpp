@@ -15,8 +15,13 @@ std::string DNAObject::getName() const
     return m_name;
 }
 
-std::string DNAObject::prepareOutput() const
+std::string DNAObject::getSequence() const
 {
     DnaSequence* tmp = dynamic_cast<DnaSequence*>(m_sequence -> get());
-    return "[" + size_tToString(m_id) + "] " + m_name + ": " + tmp -> getSeq();
+    return tmp -> getSeq();
+}
+
+std::string DNAObject::prepareOutput() const
+{
+    return "[" + size_tToString(m_id) + "] " + m_name + ": " + getSequence();
 }

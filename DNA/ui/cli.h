@@ -8,12 +8,12 @@ class CLI: public IUI
 {
 public:
     ~CLI() {}
-    void run() const;
+    void run(DB* db) const;
     void writeOutput(const std::string& output) const;
 
 private:
     std::string readCommand() const;
-    void handleCommand(std::vector<std::string>& command) const;
+    void handleCommand(std::vector<std::string>& command, DB* db) const;
     CLIParser parser;
 };
 

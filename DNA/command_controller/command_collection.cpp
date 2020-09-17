@@ -2,16 +2,29 @@
 #include "command_collection.h"
 #include "../command_controller/commands/new.h"
 #include "../command_controller/commands/load.h"
+#include "../command_controller/commands/save.h"
 
 
 std::map<std::string, ICommand*> CommandCollection::m_commands_map;
 
-void CommandCollection::initMap(DB* db)
+CommandCollection* CommandCollection::m_instance(NULL);
+
+CommandCollection* CommandCollection::getInstance()
 {
-    CommandCollection::m_commands_map.insert(std::pair<std::string, ICommand*>("load", new Load(db)));
-    CommandCollection::m_commands_map.insert(std::pair<std::string, ICommand*>("new", new New(db)));
-//    CommandCollection::m_commands_map.insert(std::pair<std::string, ICommand*>("save", new Save(db));
+    if (not m_instance)
+    {
+        m_instance = new CommandCollection();
+    }
+
+    return m_instance;
 }
+
+bool CommandCollection::addToMap(const std::string& cmd_name, ICommand* command)
+{
+    CommandCollection::m_commands_map.insert(std::pair<std::string, ICommand*>(cmd_name, command));
+    return true;
+}
+
 
 std::string CommandCollection::help()
 {

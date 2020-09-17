@@ -3,13 +3,13 @@
 DB::DB(): m_dna_id(0)
 {}
 
-DNAObject DB::getById(size_t id) const
+DNAObject& DB::getById(size_t id)
 {
     return *(m_id_map.at(id));
 }
 
 
-DNAObject DB::getByName(const std::string& name) const
+DNAObject& DB::getByName(const std::string& name)
 {
     return *(m_name_map.at(name));
 }
