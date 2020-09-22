@@ -7,4 +7,6 @@ int main()
     IUI* ui = new CLI;
     Manager* manager = new Manager(ui);
     manager->run();
+    delete ui;
+    delete manager;
 }

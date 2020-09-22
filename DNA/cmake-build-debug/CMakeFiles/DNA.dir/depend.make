@@ -6,13 +6,33 @@ CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o: ../command_contr
 CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o: ../command_controller/commands/Icommand.h
 CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o: ../command_controller/commands/load.h
 CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o: ../command_controller/commands/new.h
+CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o: ../command_controller/commands/save.h
 CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o: ../helper_structures/helper_functions.h
+CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o: ../helper_structures/shared_ptr.h
+
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../command_controller/command_collection.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../command_controller/commands/Icommand.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../command_controller/commands/dup.cpp
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../command_controller/commands/dup.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../data_base/db.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../data_base/dna/decorators/decorator.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../data_base/dna/decorators/dup_decorator.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../data_base/dna/dna_object.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../data_base/dna/dna_sequence.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../data_base/dna/idna.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../data_base/dna/nucliotide.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../data_base/dna/sequence_error.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../helper_structures/helper_functions.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o: ../helper_structures/shared_ptr.h
 
 CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o: ../command_controller/command_collection.h
 CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o: ../command_controller/commands/Icommand.h
 CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o: ../command_controller/commands/load.cpp
 CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o: ../command_controller/commands/load.h
+CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o: ../helper_structures/helper_functions.h
+CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o: ../helper_structures/shared_ptr.h
 
+CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../command_controller/command_collection.h
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../command_controller/commands/Icommand.h
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../command_controller/commands/new.cpp
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../command_controller/commands/new.h
@@ -20,22 +40,47 @@ CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../data_base/db.h
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../data_base/dna/dna_object.h
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../data_base/dna/dna_sequence.h
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../data_base/dna/idna.h
+CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../data_base/dna/nucliotide.h
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../data_base/dna/sequence_error.h
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../helper_structures/helper_functions.h
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o: ../helper_structures/shared_ptr.h
+
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../command_controller/command_collection.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../command_controller/commands/Icommand.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../command_controller/commands/save.cpp
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../command_controller/commands/save.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../data_base/db.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../data_base/dna/dna_object.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../data_base/dna/dna_sequence.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../data_base/dna/idna.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../data_base/dna/nucliotide.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../data_base/dna/sequence_error.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../helper_structures/helper_functions.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o: ../helper_structures/shared_ptr.h
 
 CMakeFiles/DNA.dir/data_base/db.cpp.o: ../data_base/db.cpp
 CMakeFiles/DNA.dir/data_base/db.cpp.o: ../data_base/db.h
 CMakeFiles/DNA.dir/data_base/db.cpp.o: ../data_base/dna/dna_object.h
 CMakeFiles/DNA.dir/data_base/db.cpp.o: ../data_base/dna/dna_sequence.h
 CMakeFiles/DNA.dir/data_base/db.cpp.o: ../data_base/dna/idna.h
+CMakeFiles/DNA.dir/data_base/db.cpp.o: ../data_base/dna/nucliotide.h
 CMakeFiles/DNA.dir/data_base/db.cpp.o: ../data_base/dna/sequence_error.h
 CMakeFiles/DNA.dir/data_base/db.cpp.o: ../helper_structures/shared_ptr.h
+
+CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o: ../data_base/dna/decorators/decorator.h
+CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o: ../data_base/dna/decorators/dup_decorator.cpp
+CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o: ../data_base/dna/decorators/dup_decorator.h
+CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o: ../data_base/dna/dna_sequence.h
+CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o: ../data_base/dna/idna.h
+CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o: ../data_base/dna/nucliotide.h
+CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o: ../data_base/dna/sequence_error.h
+CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o: ../helper_structures/shared_ptr.h
 
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../data_base/dna/dna_object.cpp
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../data_base/dna/dna_object.h
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../data_base/dna/dna_sequence.h
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../data_base/dna/idna.h
+CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../data_base/dna/nucliotide.h
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../data_base/dna/sequence_error.h
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../helper_structures/helper_functions.h
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../helper_structures/shared_ptr.h
@@ -43,6 +88,7 @@ CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o: ../helper_structures/shared_p
 CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o: ../data_base/dna/dna_sequence.cpp
 CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o: ../data_base/dna/dna_sequence.h
 CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o: ../data_base/dna/idna.h
+CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o: ../data_base/dna/nucliotide.h
 CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o: ../data_base/dna/sequence_error.h
 
 CMakeFiles/DNA.dir/helper_structures/helper_function.cpp.o: ../helper_structures/helper_function.cpp
@@ -59,10 +105,12 @@ CMakeFiles/DNA.dir/main.cpp.o: ../ui/cli.h
 CMakeFiles/DNA.dir/main.cpp.o: ../ui/iui.h
 
 CMakeFiles/DNA.dir/manager.cpp.o: ../command_controller/command_collection.h
+CMakeFiles/DNA.dir/manager.cpp.o: ../command_controller/commands/Icommand.h
 CMakeFiles/DNA.dir/manager.cpp.o: ../data_base/db.h
 CMakeFiles/DNA.dir/manager.cpp.o: ../data_base/dna/dna_object.h
 CMakeFiles/DNA.dir/manager.cpp.o: ../data_base/dna/dna_sequence.h
 CMakeFiles/DNA.dir/manager.cpp.o: ../data_base/dna/idna.h
+CMakeFiles/DNA.dir/manager.cpp.o: ../data_base/dna/nucliotide.h
 CMakeFiles/DNA.dir/manager.cpp.o: ../data_base/dna/sequence_error.h
 CMakeFiles/DNA.dir/manager.cpp.o: ../helper_structures/shared_ptr.h
 CMakeFiles/DNA.dir/manager.cpp.o: ../manager.cpp
@@ -73,7 +121,6 @@ CMakeFiles/DNA.dir/parser/cli_parser.cpp.o: ../parser/cli_parser.cpp
 CMakeFiles/DNA.dir/parser/cli_parser.cpp.o: ../parser/cli_parser.h
 CMakeFiles/DNA.dir/parser/cli_parser.cpp.o: ../parser/iparser.h
 
-CMakeFiles/DNA.dir/ui/cli.cpp.o: ../command_controller/command_collection.h
 CMakeFiles/DNA.dir/ui/cli.cpp.o: ../command_controller/commands/Icommand.h
 CMakeFiles/DNA.dir/ui/cli.cpp.o: ../parser/cli_parser.h
 CMakeFiles/DNA.dir/ui/cli.cpp.o: ../parser/iparser.h

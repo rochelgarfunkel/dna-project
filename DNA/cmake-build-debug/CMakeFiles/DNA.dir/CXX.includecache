@@ -11,6 +11,8 @@ string
 -
 map
 -
+../helper_structures/shared_ptr.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
 
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/Icommand.h
 vector
@@ -18,35 +20,21 @@ vector
 string
 -
 
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/load.cpp
-iostream
--
-fstream
--
-load.h
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/load.h
-../command_collection.h
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
-
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/load.h
-string
--
-vector
--
-Icommand.h
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/Icommand.h
-
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.cpp
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/dup.cpp
 iostream
 -
 ../../helper_structures/helper_functions.h
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/helper_functions.h
-new.h
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.h
+dup.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/dup.h
 ../../data_base/db.h
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.h
+../command_collection.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
+../../data_base/dna/decorators/dup_decorator.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/dup_decorator.h
 
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/dup.h
 string
 -
 vector
@@ -66,6 +54,18 @@ map
 dna/dna_object.h
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
 
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/decorator.h
+string
+-
+../../../helper_structures/shared_ptr.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
+../idna.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/dup_decorator.h
+decorator.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/decorator.h
+
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
 dna_sequence.h
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
@@ -74,6 +74,28 @@ dna_sequence.h
 
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
 string
+-
+sstream
+-
+iostream
+-
+cstring
+-
+vector
+-
+map
+-
+idna.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+nucliotide.h
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+
+/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
+string
+-
+sstream
 -
 iostream
 -
@@ -85,10 +107,6 @@ map
 -
 sequence_error.h
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
-idna.h
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
-
-/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
 
 /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
 exception

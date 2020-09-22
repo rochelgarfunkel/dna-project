@@ -88,6 +88,12 @@
 		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h">
 			<Option target="DNA"/>
 		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/dup.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/dup.h">
+			<Option target="DNA"/>
+		</Unit>
 		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/load.cpp">
 			<Option target="DNA"/>
 		</Unit>
@@ -110,6 +116,12 @@
 			<Option target="DNA"/>
 		</Unit>
 		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.h">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/dup_decorator.cpp">
+			<Option target="DNA"/>
+		</Unit>
+		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/dup_decorator.h">
 			<Option target="DNA"/>
 		</Unit>
 		<Unit filename="/home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.cpp">

@@ -11,6 +11,8 @@ class DB;
 class CommandCollection
 {
 public:
+    ~CommandCollection();
+
     static CommandCollection* getInstance();
     static bool addToMap(const std::string& cmd_name, ICommand* command);
 

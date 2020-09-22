@@ -61,7 +61,8 @@ std::string New::execute(DB* db)
         getDefaultName(seq_id, db);
 
     db -> addDna(new DNAObject(seq_id, m_seq_name, dna));
-    return db -> getById(seq_id).prepareOutput();
+    return db -> getById(seq_id).prepareOutput(db);
+
 }
 
 void New::clear()

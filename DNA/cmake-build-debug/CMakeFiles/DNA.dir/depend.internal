@@ -7,13 +7,33 @@ CMakeFiles/DNA.dir/command_controller/command_collection.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/Icommand.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/load.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/save.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/helper_functions.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
+CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/Icommand.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/dup.cpp
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/dup.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/decorator.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/dup_decorator.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/helper_functions.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
 CMakeFiles/DNA.dir/command_controller/commands/load.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/Icommand.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/load.cpp
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/load.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/helper_functions.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
 CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/Icommand.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.cpp
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/new.h
@@ -21,6 +41,20 @@ CMakeFiles/DNA.dir/command_controller/commands/new.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/helper_functions.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
+CMakeFiles/DNA.dir/command_controller/commands/save.cpp.o
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/Icommand.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/save.cpp
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/save.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/helper_functions.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
@@ -30,6 +64,16 @@ CMakeFiles/DNA.dir/data_base/db.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
+CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/decorator.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/dup_decorator.cpp
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/decorators/dup_decorator.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
 CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o
@@ -37,6 +81,7 @@ CMakeFiles/DNA.dir/data_base/dna/dna_object.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/helper_functions.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
@@ -44,6 +89,7 @@ CMakeFiles/DNA.dir/data_base/dna/dna_sequence.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.cpp
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
 CMakeFiles/DNA.dir/helper_structures/helper_function.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/helper_function.cpp
@@ -60,10 +106,12 @@ CMakeFiles/DNA.dir/main.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/ui/iui.h
 CMakeFiles/DNA.dir/manager.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/Icommand.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/db.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_object.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/dna_sequence.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/idna.h
+ /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/nucliotide.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/data_base/dna/sequence_error.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/helper_structures/shared_ptr.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/manager.cpp
@@ -74,7 +122,6 @@ CMakeFiles/DNA.dir/parser/cli_parser.cpp.o
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/parser/cli_parser.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/parser/iparser.h
 CMakeFiles/DNA.dir/ui/cli.cpp.o
- /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/command_collection.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/command_controller/commands/Icommand.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/parser/cli_parser.h
  /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel/DNA/parser/iparser.h

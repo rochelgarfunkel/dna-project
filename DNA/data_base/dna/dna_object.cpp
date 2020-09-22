@@ -2,7 +2,7 @@
 #include "dna_sequence.h"
 #include "../../helper_structures/helper_functions.h"
 
-DNAObject::DNAObject(size_t id, std::string& name, IDna* sequence): m_id(id), m_name(name), m_sequence(sequence)
+DNAObject::DNAObject(size_t id, std::string& name, IDna* sequence): m_id(id), m_name(name), m_sequence(SharedPtr<IDna>(sequence))
 {}
 
 size_t DNAObject::getId() const
@@ -15,13 +15,17 @@ std::string DNAObject::getName() const
     return m_name;
 }
 
-std::string DNAObject::getSequence() const
+IDna* DNAObject::get()
 {
-    DnaSequence* tmp = dynamic_cast<DnaSequence*>(m_sequence -> get());
-    return tmp -> getSeq();
+    return m_sequence.get();
 }
 
-std::string DNAObject::prepareOutput() const
+std::string DNAObject::getSequence(DB* db) const
 {
-    return "[" + size_tToString(m_id) + "] " + m_name + ": " + getSequence();
+    return ((DnaSequence*)(m_sequence.get())) -> get();
+}
+
+std::string DNAObject::prepareOutput(DB* db) const
+{
+    return "[" + size_tToString(m_id) + "] " + m_name + ": " + getSequence(db);
 }

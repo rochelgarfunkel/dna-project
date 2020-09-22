@@ -49,7 +49,7 @@ std::string Save::execute(DB* db)
             m_file_name = dna.getName();
 
         std::string path = "saved_sequences/" + m_file_name + ".rawdna";
-        std::string seq = dna.getSequence();
+        std::string seq = dna.getSequence(db);
 
         writeToFile(path, seq);
 

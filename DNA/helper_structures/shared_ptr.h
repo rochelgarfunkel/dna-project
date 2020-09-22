@@ -76,7 +76,7 @@ size_t* SharedPtr<T>::getCount() const
 
 
 template <typename T>
-T* SharedPtr<T>::get() const
+inline T* SharedPtr<T>::get() const
 {
 	return m_ptr;
 }

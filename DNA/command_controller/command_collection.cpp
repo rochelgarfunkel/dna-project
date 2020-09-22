@@ -9,6 +9,16 @@ std::map<std::string, ICommand*> CommandCollection::m_commands_map;
 
 CommandCollection* CommandCollection::m_instance(NULL);
 
+CommandCollection::~CommandCollection()
+{
+    std::map<std::string, ICommand*>::iterator it;
+
+    for ( it = m_commands_map.begin(); it != m_commands_map.end(); it++ )
+    {
+        delete it->second;
+    }
+}
+
 CommandCollection* CommandCollection::getInstance()
 {
     if (not m_instance)

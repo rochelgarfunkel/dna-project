@@ -4,14 +4,17 @@
 #include "dna_sequence.h"
 #include "../../helper_structures/shared_ptr.h"
 
+class DB;
+
 class DNAObject
 {
 public:
     DNAObject(size_t id, std::string& name, IDna* sequence);
     size_t getId() const;
     std::string getName() const;
-    std::string getSequence() const;
-    std::string prepareOutput() const;
+    IDna* get();
+    std::string getSequence(DB*) const;
+    std::string prepareOutput(DB*) const;
 
 private:
     size_t m_id;

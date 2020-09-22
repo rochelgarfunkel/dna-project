@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/125/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/126/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/125/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/126/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/rochel/Desktop/c++/dna-analyzer-project-rochelgarfunkel
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/125/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/126/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -90,7 +90,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/125/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/126/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -169,6 +169,33 @@ command_controller/command_collection.s: command_controller/command_collection.c
 command_controller/command_collection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/command_collection.cpp.s
 .PHONY : command_controller/command_collection.cpp.s
+
+command_controller/commands/dup.o: command_controller/commands/dup.cpp.o
+
+.PHONY : command_controller/commands/dup.o
+
+# target to build an object file
+command_controller/commands/dup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.o
+.PHONY : command_controller/commands/dup.cpp.o
+
+command_controller/commands/dup.i: command_controller/commands/dup.cpp.i
+
+.PHONY : command_controller/commands/dup.i
+
+# target to preprocess a source file
+command_controller/commands/dup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.i
+.PHONY : command_controller/commands/dup.cpp.i
+
+command_controller/commands/dup.s: command_controller/commands/dup.cpp.s
+
+.PHONY : command_controller/commands/dup.s
+
+# target to generate assembly for a file
+command_controller/commands/dup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/command_controller/commands/dup.cpp.s
+.PHONY : command_controller/commands/dup.cpp.s
 
 command_controller/commands/load.o: command_controller/commands/load.cpp.o
 
@@ -277,6 +304,33 @@ data_base/db.s: data_base/db.cpp.s
 data_base/db.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/db.cpp.s
 .PHONY : data_base/db.cpp.s
+
+data_base/dna/decorators/dup_decorator.o: data_base/dna/decorators/dup_decorator.cpp.o
+
+.PHONY : data_base/dna/decorators/dup_decorator.o
+
+# target to build an object file
+data_base/dna/decorators/dup_decorator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.o
+.PHONY : data_base/dna/decorators/dup_decorator.cpp.o
+
+data_base/dna/decorators/dup_decorator.i: data_base/dna/decorators/dup_decorator.cpp.i
+
+.PHONY : data_base/dna/decorators/dup_decorator.i
+
+# target to preprocess a source file
+data_base/dna/decorators/dup_decorator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.i
+.PHONY : data_base/dna/decorators/dup_decorator.cpp.i
+
+data_base/dna/decorators/dup_decorator.s: data_base/dna/decorators/dup_decorator.cpp.s
+
+.PHONY : data_base/dna/decorators/dup_decorator.s
+
+# target to generate assembly for a file
+data_base/dna/decorators/dup_decorator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DNA.dir/build.make CMakeFiles/DNA.dir/data_base/dna/decorators/dup_decorator.cpp.s
+.PHONY : data_base/dna/decorators/dup_decorator.cpp.s
 
 data_base/dna/dna_object.o: data_base/dna/dna_object.cpp.o
 
@@ -506,6 +560,9 @@ help:
 	@echo "... command_controller/command_collection.o"
 	@echo "... command_controller/command_collection.i"
 	@echo "... command_controller/command_collection.s"
+	@echo "... command_controller/commands/dup.o"
+	@echo "... command_controller/commands/dup.i"
+	@echo "... command_controller/commands/dup.s"
 	@echo "... command_controller/commands/load.o"
 	@echo "... command_controller/commands/load.i"
 	@echo "... command_controller/commands/load.s"
@@ -518,6 +575,9 @@ help:
 	@echo "... data_base/db.o"
 	@echo "... data_base/db.i"
 	@echo "... data_base/db.s"
+	@echo "... data_base/dna/decorators/dup_decorator.o"
+	@echo "... data_base/dna/decorators/dup_decorator.i"
+	@echo "... data_base/dna/decorators/dup_decorator.s"
 	@echo "... data_base/dna/dna_object.o"
 	@echo "... data_base/dna/dna_object.i"
 	@echo "... data_base/dna/dna_object.s"
